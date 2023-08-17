@@ -4,10 +4,14 @@ class CaixaDaLanchonete {
         // O construtor inicializa os itens do cardápio e os métodos de pagamento disponíveis
         this.cardapio = {
             // Itens do cardápio com descrições e preços
-            cafe: { descricao: 'Café', valor: 3.0 },
-            chantily: { descricao: 'Chantily (extra do Café)', valor: 1.5 },
-            suco: { descricao: 'Suco Natural', valor: 6.2 },
-            // ... mais itens do cardápio ...
+            cafe: { descricao: 'Café', valor: 3.00 },
+            chantily: { descricao: 'Chantily (extra do Café)', valor: 1.50 },
+            suco: { descricao: 'Suco Natural', valor: 6.20 },
+            sanduiche: { descricao: 'Sanduíche', valor: 6.50 },
+            queijo: { descricao: 'Queijo (extra do Sanduíche)', valor: 2.00 },
+            salgado: { descricao: 'Salgado', valor: 7.25 },
+            combo1: { descricao: '1 Suco e 1 Sanduíche', valor: 9.50 },
+            combo2: { descricao: '1 Café e 1 Sanduíche', valor: 7.50 }
         };
 
         // Métodos de pagamento disponíveis
